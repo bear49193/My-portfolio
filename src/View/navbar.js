@@ -62,8 +62,6 @@ class Navba extends Component {
 
             <a className="navbar-item" id={cstyles.navbarItem} href="# " onClick={(e) => this.showIt('portfolio',e)}>PORTFOLIO</a>
 
-            <a className="navbar-item" id={cstyles.navbarItem} href="https://azizstarkblog.herokuapp.com">BLOG</a>
-
             <a className="navbar-item" id={cstyles.navbarItem} href="# " onClick={(e) => this.showIt('about',e)}>ABOUT</a>
             
             <a className="navbar-item" id={cstyles.navbarItem} href="# " onClick={(e) => this.showIt('contact',e)}>CONTACT</a>

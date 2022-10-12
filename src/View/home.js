@@ -95,7 +95,7 @@ export default class Home extends Component {
         <meta charSet="utf-8"></meta>
         <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700|Nunito:200,300,400,400i,600,700&display=swap" rel="stylesheet"></link>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <meta name="description" content="Hello! I am Aziz Stark, An aspiring developer and designer." />
+        <meta name="description" content="Hello! I am Robbie Abbott, An web developer and designer." />
         <section className={`hero is-fullheight ${cstyles.svgg}`}>
           <Navba></Navba>
           <div className="hero-body" >
@@ -104,9 +104,9 @@ export default class Home extends Component {
 
               <p id={cstyles.title}>
                 HELLO, <br></br>
-                I AM AZIZ.
+                I AM Robbie.
                 </p>
-              <p className={cstyles.subheading}>An aspiring developer and designer.</p>
+              <p className={cstyles.subheading}>An web developer and designer.</p>
               <br />
               <button onClick={() => this.showIt('explore')} className="button" id={cstyles.custombtn} >Explore</button>
             </div>
@@ -127,7 +127,7 @@ export default class Home extends Component {
           <div id="portfolio" className="columns is-desktop" style={{ padding: 20, paddingBottom: 0 }}>
 
             <div className={`column ${cstyles.cluster}`}>
-              {box("https://res.cloudinary.com/azizcloud/image/upload/v1590315235/portfolio/d5vfhxrpvitibwnu4fqs.jpg", "Cassiopeia CMS", "A bodacious, secure, headless content management system.", ["MongoDB", "Express JS", "React JS", "Node JS"], "https://github.com/AzizStark/CassiopeiaCMS")}
+              {box("https://res.cloudinary.com/azizcloud/image/upload/v1590315235/portfolio/d5vfhxrpvitibwnu4fqs.jpg", "Cassiopeia CMS", "A bodacious, secure, headless content management system.", ["MongoDB", "Express JS", "React JS", "Node JS"], "https://github.com/bear49193/CassiopeiaCMS")}
 
             </div>
             <div className={`column ${cstyles.cluster}`}>
@@ -185,7 +185,7 @@ export default class Home extends Component {
                 <ReactCompareImage leftImage={code} rightImage={hlogo} handle={<FontAwesomeIcon icon={faArrowsAltH} style={{ backgroundColor: '#e6f2fb', color: "#45364E", borderRadius: 30, padding: 10, border: 0 }} size="3x" />} sliderLineColor={'#e6f2fb'} sliderLineWidth={8} sliderPositionPercentage={0.475} />      <br />
               </div>
               <div style={styles.flexcenter} >
-                <button id={cstyles.custombtn} className="button" onClick={() => { window.open("https://drive.google.com/file/d/1xZ5BJQZrcFFJBVBzwOebP3HocIyaJOjL/view?usp=sharing") }} >Download Resume</button>
+                <button id={cstyles.custombtn} className="button" onClick={() => { window.open("https://app.enhancv.com/share/85127ceb") }} >Download Resume</button>
               </div>
             </div>
             <div className="column">
@@ -203,26 +203,19 @@ export default class Home extends Component {
         </section>
 
 
-        {herobar('Who am I?', "I'm Aziz")}
+        {herobar('Who am I?', "I'm Robbie")}
         <section id="about" className={`hero is-fullheight ${cstyles.svgg}`} style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column' }}>
           <div className="columns is-desktop" style={{ padding: '10%' }}>
             <div className="column  has-text-centered" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <img alt="aziz" src={'https://res.cloudinary.com/azizcloud/image/upload/t_equla/v1590335741/portfolio/jfixlskwxiz4wwp9dfda.jpg'} style={{ width: '55%', borderRadius: 8 }} />
+              <img alt="aziz" src={'me.jpg'} style={{ width: '55%', borderRadius: 8 }} />
             </div>
             <div className="column is-three-fifths-desktop" style={{ fontFamily: 'nunito', paddingLeft: 0 }}>
               <h1 style={{ display: 'inline-block', fontSize: '2rem', color: 'rgb(28, 255, 189)', fontWeight: 500 }}>ME</h1>
               <div style={{ marginLeft: 15, display: 'inline-block', background: 'linear-gradient(91.18deg, rgb(28, 255, 189) -16.44%, rgba(46, 167, 255, 0) 107.71%)', borderRadius: 21, width: 'calc(100% - 4rem)', height: 6 }}></div>
               <div className="contents" style={{ fontSize: "calc(12px + 1vh)", fontWeight: 300, padding: 33, paddingLeft: 0, paddingRight: 0, textAlign: 'justify' }}>
-                Hey! <span role="img" aria-label="wave">👋</span>I'm Aziz Rahman, I love web and mobile app development and have developed a few websites and projects️. I'm also passionate about design <span role="img" aria-label="pallete">🎨</span>. I spend my free time listening to music <span role="img" aria-label="music">🎧</span>, playing video games and surfing the internet to explore the world.
+                Hey! <span role="img" aria-label="wave">👋</span>I'm Robbie Abbott, I love web and mobile app development and have developed a few websites and projects️. I'm also passionate about design <span role="img" aria-label="pallete">🎨</span>. I spend my free time listening to music <span role="img" aria-label="music">🎧</span>, playing video games and surfing the internet to explore the world.
                 </div>
-              <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-                <a style={styles.bcolor} href="mailto:theazizstark@gmail.com?Subject=Hello" target="_top"><FontAwesomeIcon className={cstyles.iclick} icon={faEnvelope} size="2x" /></a>
-                <a style={styles.bcolor} href="https://github.com/azizstark" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={cstyles.iclick} icon={faGithubAlt} size="2x" /></a>
-                <a style={styles.bcolor} href="https://deviantart.com/azizstark" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={cstyles.iclick} icon={faDeviantart} size="2x" /></a>
-                <a style={styles.bcolor} href="https://dribbble.com/AzizStark" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={cstyles.iclick} icon={faDribbble} size="2x" /></a>
-                <a style={styles.bcolor} href="https://www.instagram.com/the_pixel_dreamer" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={cstyles.iclick} icon={faInstagram} size="2x" /></a>
-                <a style={styles.bcolor} href="https://www.linkedin.com/in/theazizrahman/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={cstyles.iclick} icon={faLinkedinIn} size="2x" /></a>
-              </div>
+              
             </div>
           </div>
         </section>
@@ -274,7 +267,7 @@ export default class Home extends Component {
           <div className="columns">
             <div className="column has-text-centered">
               <p style={{ fontFamily: 'Nunito', fontWeight: 400, color: 'rgb(28, 255, 189)', fontSize: "calc(12px + 0.3vh)" }}>
-                Content and Graphics © 2021 AzizStark
+                Content and Graphics © 2021 RobbieAbbott
             </p>
             </div>
           </div>
