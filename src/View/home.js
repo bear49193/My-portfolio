@@ -5,7 +5,7 @@ import "./imagehover.min.css";
 import cstyles from "./home.module.css";
 import leaf1 from "../assets/plato.svg";
 import leaf2 from "../assets/plate.svg";
-import hlogo from "../assets/plato.svg";
+import hlogo from "../assets/computer-desk.svg";
 import code from "../assets/plate.svg";
 import ReactCompareImage from "react-compare-image";
 import emailjs from "emailjs-com";
@@ -339,10 +339,12 @@ export default class Home extends Component {
                   id={cstyles.custombtn}
                   className="button"
                   onClick={() => {
-                    window.open("https://app.enhancv.com/share/42af6387");
+                    window.open(
+                      "https://drive.google.com/file/d/13dDZ5d7zm_X-r6nmTHocar0cjPxn-GTj/view"
+                    );
                   }}
                 >
-                  Download Resume
+                  My Resume
                 </button>
               </div>
             </div>
