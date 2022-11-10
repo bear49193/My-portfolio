@@ -340,7 +340,7 @@ export default class Home extends Component {
                   className="button"
                   onClick={() => {
                     window.open(
-                      "https://drive.google.com/file/d/13dDZ5d7zm_X-r6nmTHocar0cjPxn-GTj/view"
+                      "https://drive.google.com/file/d/1bLHv_fBJPC7rJYLTGMO_yO-_xg66emsM/view?usp=share_link"
                     );
                   }}
                 >
