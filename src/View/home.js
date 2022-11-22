@@ -120,7 +120,7 @@ export default class Home extends Component {
               <p id={cstyles.title}>
                 HELLO, <br></br>I AM Willi.
               </p>
-              <p className={cstyles.subheading}>An WEB & ML/DL DEVELOPER.</p>
+              <p className={cstyles.subheading}>An ML/DL & WEB DEVELOPER.</p>
               <br />
               <button
                 onClick={() => this.showIt("explore")}
@@ -273,11 +273,81 @@ export default class Home extends Component {
                 abstractions.
               </h2>
               <br />
+              <h2 style={styles.stext}>HTML5</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="96"
+                max="100"
+              ></progress>
+              <h2 style={styles.stext}>CSS3</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="94"
+                max="100"
+              ></progress>
               <h2 style={styles.stext}>JavaScript</h2>
               <progress
                 style={{ height: 5, marginBottom: 10 }}
                 className="progress is-small is-success"
                 value="94"
+                max="100"
+              ></progress>
+              <h2 style={styles.stext}>TypeScript</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="82"
+                max="100"
+              ></progress>
+              <h2 style={styles.stext}>React</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="88"
+                max="100"
+              ></progress>
+              <h2 style={styles.stext}>VueJS</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="49"
+                max="100"
+              ></progress>
+              <h2 style={styles.stext}>NodeJS</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="88"
+                max="100"
+              ></progress>
+              <h2 style={styles.stext}>NextJS</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="58"
+                max="100"
+              ></progress>
+              <h2 style={styles.stext}>MongoDB</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="74"
+                max="100"
+              ></progress>
+              <h2 style={styles.stext}>Laravel</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="94"
+                max="100"
+              ></progress>
+              <h2 style={styles.stext}>WordPress</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="96"
                 max="100"
               ></progress>
               <h2 style={styles.stext}>Python</h2>
@@ -340,7 +410,7 @@ export default class Home extends Component {
                   className="button"
                   onClick={() => {
                     window.open(
-                      "https://drive.google.com/file/d/1bLHv_fBJPC7rJYLTGMO_yO-_xg66emsM/view?usp=share_link"
+                      "https://drive.google.com/file/d/11OH3hVeqx6koke7xCtQoWelNGP1o_j_1/view?usp=share_link"
                     );
                   }}
                 >
@@ -384,11 +454,56 @@ export default class Home extends Component {
                 value="92"
                 max="100"
               ></progress>
+              <br />
+              <br />
+              <p style={styles.ltext}>Machine Learning</p> <br />
+              <h2 style={styles.stext}>Python</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="96"
+                max="100"
+              ></progress>
+              <h2 style={styles.stext}>Django</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="86"
+                max="100"
+              ></progress>
+              <h2 style={styles.stext}>Flask</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="92"
+                max="100"
+              ></progress>
+              <h2 style={styles.stext}>C++</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="80"
+                max="100"
+              ></progress>
+              <h2 style={styles.stext}>MFC</h2>
+              <progress
+                style={{ height: 5, marginBottom: 10 }}
+                className="progress is-small is-success"
+                value="70"
+                max="100"
+              ></progress>
+              <h2 style={styles.stext}>C#</h2>
+              <progress
+                style={{ height: 5 }}
+                className="progress is-small is-success"
+                value="70"
+                max="100"
+              ></progress>
             </div>
           </div>
         </section>
 
-        {herobar("Who am I?", "I'm Willi")}
+        {herobar("Who am I?", "I'm Willi Mude")}
         <section
           id="about"
           className={`hero is-fullheight ${cstyles.svgg}`}
@@ -409,7 +524,7 @@ export default class Home extends Component {
             >
               <img
                 alt="aziz"
-                src={"2.png"}
+                src={"4.jpg"}
                 style={{ width: "55%", borderRadius: 8 }}
               />
             </div>
